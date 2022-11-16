@@ -1,5 +1,3 @@
-package com.ArrayList;
-
 import java.util.Scanner;
 
 class Main1 {

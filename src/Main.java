@@ -1,7 +1,3 @@
-package com.ArrayList;
-
-import com.ArrayList.GroceryList;
-
 import java.util.Scanner;
 
 public class Main {
@@ -70,7 +66,7 @@ public class Main {
         System.out.print("Enter item number: ");
         int itemNum = scan.nextInt();
         scan.nextLine();
-        groceryList.removeGroceryItem(itemNum);
+        groceryList.removeGroceryItem(itemNum-1);
     }
     public static void searchForItem(){
         System.out.print("Item to search for: ");
