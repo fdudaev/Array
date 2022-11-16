@@ -1,16 +1,16 @@
 import java.util.Scanner;
-
 public class Main {
 
     private static Scanner scan = new Scanner(System.in);
     private static GroceryList groceryList = new GroceryList();
     public static void main(String[] args) {
 
+
         boolean quit = false;
         int choice = 0;
         printInstructions();
         while (!quit){
-            System.out.println("Enter your choice: ");
+            System.out.print("Enter your choice: ");
             choice = scan.nextInt();
             scan.nextLine();
 

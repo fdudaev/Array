@@ -4,6 +4,7 @@ import java.util.LinkedList;
 public class Arrays {
     public static void main(String[] args) {
 
+
         String name = "farrukh";
         String reversIt = "";
 
